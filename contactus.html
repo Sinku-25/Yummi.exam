@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummi</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <aside>
+
+        <div class="side-bar">
+            <div class="">
+                <ul class="">
+                    <li class="">
+                        <a href="search.html">Search</a></li>
+                    <li class="my-4">
+                        <a href="categorios.html">Categories</a>
+                    </li>
+                    <li class="my-4">
+                        <a href="area.html">Area</a>
+                    </li>
+                    <li class="my-4">
+                        <a href="Ingredients.html">Ingredients</a>
+                    </li>
+                    <li class="my-4">
+                        <a href="contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-white left-list text-center">
+                <i class="fab fa-facebook-f text-muted "></i>
+                <i class="fab fa-twitter text-muted mx-2 mb-3"></i>
+                <i class="fas fa-globe text-muted"></i>
+                <p class="text-muted">Contact Us Copyright © 2023
+                    <br> All Rights Reserved.</p>
+            </div>
+
+        </div>
+        <div class="setting d-flex ">
+            <img src="images/logo.png" alt="logo" class="mt-3">
+            <div class="center ">
+                <i class="fa-solid fa-xmark d-none"></i>
+                <i class="fa fa-align-justify manu "></i>
+
+            </div>
+            <div class="mb-3 ">
+                <i class="fas fa-globe "></i>
+                <br> <i class="fas fa-share-alt "></i>
+            </div>
+        </div>
+    </aside>
+
+    <section class="text-white d-flex justify-content-center align-items-center  ">
+        <div class=" mt-5 p-5  col-lg-8  text-center">
+            <h2 class="text-white my-5">ContactUs...</h2>
+            <div class="row  gy-3">
+                <div class="col-lg-6">
+                    <div class="error position-relative"><input type="text" class="form-control  rounded-0  input-name  " placeholder="Enter Your Name">
+                        <i class="fa-solid fa-xmark text-danger position-absolute d-none red"></i>
+                        <i class="fa-solid fa-check text-success position-absolute d-none green"></i>
+                    </div>
+                    <div class="alert alert-danger mt-1 d-none alert-name" role="alert">
+
+                        Special Characters three or more and Numbers not allowed
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="error position-relative"><input type="text" class="form-control  rounded-0  input-email  " placeholder="Enter Your Email">
+                        <i class="fa-solid fa-xmark text-danger position-absolute d-none red"></i>
+                        <i class="fa-solid fa-check text-success position-absolute d-none green"></i>
+                    </div>
+                    <div class="alert alert-danger mt-1 d-none alert-email" role="alert">
+                        Enter valid email. *Ex: xxx@yahoo or gmail.com
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="error position-relative"><input type="number" class="form-control  rounded-0  input-phone  " placeholder="Enter Phone">
+                        <i class="fa-solid fa-xmark text-danger position-absolute d-none red"></i>
+                        <i class="fa-solid fa-check text-success position-absolute d-none green"></i>
+                    </div>
+                    <div class="alert alert-danger mt-1 d-none alert-phone" role="alert">
+                        Enter Phone *Ex:01011111111
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="error position-relative"><input type="number" class="form-control  rounded-0  input-age  " placeholder="Enter Your Age">
+                        <i class="fa-solid fa-xmark text-danger position-absolute d-none red"></i>
+                        <i class="fa-solid fa-check text-success position-absolute d-none green"></i>
+                    </div>
+                    <div class="alert alert-danger mt-1 d-none alert-age" role="alert">
+                        10 to 80 years old allowed
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="error position-relative"><input type="password" class="form-control  rounded-0  input-password  " placeholder="Enter Your Password">
+                        <i class="fa-solid fa-xmark text-danger position-absolute d-none red"></i>
+                        <i class="fa-solid fa-check text-success position-absolute d-none green"></i>
+                    </div>
+                    <div class="alert alert-danger mt-1 d-none alert-password" role="alert">
+                        Minimum eight characters, at least one letter, one number and one special character
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="error position-relative"><input type="password" class="form-control  rounded-0  input-repassword  " placeholder="Enter Your Password">
+                        <i class="fa-solid fa-xmark text-danger position-absolute d-none red"></i>
+                        <i class="fa-solid fa-check text-success position-absolute d-none green"></i>
+                    </div>
+                    <div class="alert alert-danger mt-1 d-none alert-repassword" role="alert">
+                        passwords did not match
+                    </div>
+                </div>
+
+
+
+            </div>
+            <p class="text-success mt-3 reqValidation d-none ">Done <i class="fa-solid fa-check"></i></p>
+            <button type="button" class="btn btn-outline-danger mt-4  ">Submit</button>
+
+        </div>
+    </section>
+   
+    <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/contactus.js"></script>
+</body>
+
+</html>

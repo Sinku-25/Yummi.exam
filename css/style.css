@@ -1,0 +1,199 @@
+ /* ---------------------------------------------------------homepage---------------------------------------------------------------------  */
+
+body {
+background-color: rgb(0, 0, 0);
+
+}
+
+.item {
+overflow: hidden;
+border-radius: 5px;
+}
+
+.item h2 {
+cursor: pointer;
+}
+
+.item-caption {
+width: 100%;
+height: 100%;
+top: 100%;
+bottom: 0px;
+background-color: rgba(255, 255, 255, 0.378);
+transition: all 1s;
+}
+
+.item:hover .item-caption {
+top: 0%;
+}
+
+.item-caption h2 {
+font-family: 'Cairo', sans-serif;
+}
+/*-------------------------------------------------------- side nav menu -----------------------------------------------------------*/
+
+aside 
+{
+width: 300px;
+position: fixed;
+top: 0;
+left: -250px;
+bottom: 0;
+z-index: 4;
+background-color: black;
+}
+
+.side-bar 
+{
+float: left;
+width: 80%;
+}
+
+aside ul li {
+list-style-type: none;
+margin-top: 50px;
+}
+
+aside ul li a {
+text-decoration: none;
+color: white;
+font-family: 'Cairo', sans-serif;
+font-size: 20px;
+}
+
+aside ul li a:hover {
+color: white;
+}
+
+.setting {
+width: 20%;
+height: 100%;
+background-color: rgb(153, 0, 0);
+float: right;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+.setting img {
+height: 40px;
+width: 40px;
+}
+
+.setting .center i {
+cursor: pointer;
+font-size: 30px;
+}
+
+.setting i {
+cursor: pointer;
+}
+
+.left-list {
+position: absolute;
+bottom: 30px;
+}
+
+.left-list i {
+width: 35px;
+height: 35px;
+background-color: rgba(0, 0, 0, 0.338);
+border-radius: 50%;
+cursor: pointer;
+}
+.left-list i:hover
+{
+background-color: #fff;
+}
+
+
+.left-list p {
+font-size: 15px;
+}
+/*------------------------------------------------------------ area --------------------------------------------------------------------*/
+
+.area-item {
+background-color: #2125295f;
+padding: 20px;
+/*--------------------------------------------------------- Cursor Pointer -------------------------------------------------------*/
+}
+
+.area-item h2 {
+cursor: pointer;
+}
+
+.area-item h2 {
+font-size: 22px;
+font-family: 'Cairo', sans-serif;
+}
+/*---------------------------------------------------------- contact Us ---------------------------------------------------------------------------------- */
+
+
+.form-control {
+background-color: #2125295f;
+border: 0;
+box-shadow: 1px 1px 5px white;
+border-bottom: 2px solid white;
+color: white!important;
+}
+
+.form-control:focus {
+background-color: #2125295f;
+border: 0;
+box-shadow: 1px 1px 5px white;
+border-bottom: 2px solid white;
+}
+
+.false {
+box-shadow: 1px 1px 5px red !important;
+border-bottom: 2px solid red !important;
+}
+
+.true {
+box-shadow: 1px 1px 5px green !important;
+border-bottom: 2px solid green !important;
+}
+
+.error i {
+top: 10px;
+right: 20px;
+}
+/*------------------------------------------------------ InGredientMeals ---------------------------------------------------------------*/
+
+.ingredientMeals i {
+color: #9ee650ab;
+}
+/*--------------------------------------------------------- Categores -----------------------------------------------------------------*/
+
+.catMeals h2 {
+cursor: pointer;
+}
+/*------------------------------------------------------------ Details -----------------------------------------------------------------*/
+
+.menu1 {
+display: flex;
+}
+
+.menu2 {
+display: flex;
+}
+
+.menu1 li {
+list-style-type: none;
+margin: 0px 5px;
+background-color: #D4EDDA;
+padding: 7px;
+border-radius: 5px;
+color: black;
+}
+
+.menu2 li {
+list-style-type: none;
+margin: 0px 5px;
+background-color: #F8D7DA;
+padding: 7px;
+border-radius: 5px;
+color: black;
+}
+
+           
